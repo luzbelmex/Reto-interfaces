@@ -1,40 +1,10 @@
 package reto3;
 
 // Importación de librerias basica para mostrar ventana
-import java.awt.BorderLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JFrame;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JLabel;
-import javax.swing.UIManager;
-
-// Libreria 1
-import java.awt.Panel;
-import java.awt.Button;
-import java.awt.Checkbox;
-import java.awt.Choice;
-import java.awt.TextField;
-import java.awt.TextArea;
-import java.awt.Label;
-import java.awt.List;
-import java.awt.Scrollbar;
-
-// Libreria 2
-import javax.swing.JPanel;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JTextField;
-import javax.swing.JTextArea;
-import javax.swing.JList;
-import javax.swing.JScrollBar;
-import javax.swing.UnsupportedLookAndFeelException;
-
-// Libreria 3
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
 import com.jtattoo.plaf.mint.MintLookAndFeel;
-import javax.swing.SwingUtilities;
 
 public class Reto3 {
 
@@ -183,7 +153,7 @@ public class Reto3 {
 
         // Libreria 3
         // Label
-        JLabel uILabel = new JLabel("Libreria tattoo");
+        JLabel uILabel = new JLabel("Libreria jtattoo");
         panel3.add(uILabel);
 
         // Checkbox
